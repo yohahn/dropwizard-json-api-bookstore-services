@@ -15,4 +15,17 @@ public class BookstoreServicesConfiguration extends Configuration {
     @NotNull
     public DataSourceFactory database = new DataSourceFactory();
 
+    @Valid
+    @NotNull
+    public KatharsisConfiguration katharsis = new KatharsisConfiguration();
+
+    public class KatharsisConfiguration {
+        @Valid
+        @NotNull
+        public String host;
+
+        @Valid
+        @NotNull
+        public String searchPackage;
+    }
 }

@@ -7,6 +7,10 @@ database:
     charSet: UTF-8
   validationQuery: "SELECT 1"
 
+katharsis:
+  host: http://localhost:8080
+  searchPackage: name.yohahn.bookstore.domain
+
 logging:
   level: INFO
 

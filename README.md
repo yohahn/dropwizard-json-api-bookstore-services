@@ -12,7 +12,7 @@ Migration script is located at src/main/resources/migrations.xml.
 
 For more information on available database refactorings, check the [Liquibase](http://www.liquibase.org/documentation/changes/index.html) documentation.
 
-## Services Applicaiton
+## Services Application
 
 ### building fat jar
 
